@@ -1,4 +1,4 @@
-package enums;
+package com.zenpay.paymentgateway.enums;
 
 public enum TransactionStatus {
     PENDING,
