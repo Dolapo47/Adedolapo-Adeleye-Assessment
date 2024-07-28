@@ -1,7 +1,7 @@
-package com.zenpay.paymentgateway.Interface;
+package com.paymentgateway.Interface;
 
-import com.zenpay.paymentgateway.model.Transaction;
-import com.zenpay.paymentgateway.response.GatewayResponse;
+import com.paymentgateway.model.Transaction;
+import com.paymentgateway.response.GatewayResponse;
 
 import java.util.HashMap;
 

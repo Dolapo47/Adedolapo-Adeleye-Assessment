@@ -1,10 +1,10 @@
-package com.zenpay.paymentgateway.service;
+package com.paymentgateway.service;
 
-import com.zenpay.paymentgateway.Interface.IGateway;
-import com.zenpay.paymentgateway.model.Transaction;
-import com.zenpay.paymentgateway.repository.TransactionRepository;
-import com.zenpay.paymentgateway.response.GatewayResponse;
-import com.zenpay.paymentgateway.util.Helper;
+import com.paymentgateway.Interface.IGateway;
+import com.paymentgateway.model.Transaction;
+import com.paymentgateway.repository.TransactionRepository;
+import com.paymentgateway.response.GatewayResponse;
+import com.paymentgateway.util.Helper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.dao.DataIntegrityViolationException;
@@ -110,6 +110,5 @@ public class TransactionService implements IGateway {
                     .message("Unable to update transaction")
                     .build();
         }
-
     }
 }

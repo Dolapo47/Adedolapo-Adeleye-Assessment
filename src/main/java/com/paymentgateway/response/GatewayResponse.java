@@ -1,4 +1,4 @@
-package com.zenpay.paymentgateway.response;
+package com.paymentgateway.response;
 
 
 import lombok.AllArgsConstructor;

@@ -1,7 +1,7 @@
-package com.zenpay.paymentgateway.util;
+package com.paymentgateway.util;
 
-import com.zenpay.paymentgateway.response.GatewayResponse;
-import com.zenpay.paymentgateway.enums.TransactionStatus;
+import com.paymentgateway.response.GatewayResponse;
+import com.paymentgateway.enums.TransactionStatus;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
