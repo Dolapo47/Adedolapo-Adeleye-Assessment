@@ -1,6 +1,6 @@
-package com.zenpay.paymentgateway.exception;
+package com.paymentgateway.exception;
 
-import com.zenpay.paymentgateway.response.GatewayResponse;
+import com.paymentgateway.response.GatewayResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;

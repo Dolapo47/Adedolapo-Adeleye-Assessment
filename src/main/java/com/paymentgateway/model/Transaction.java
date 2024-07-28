@@ -1,6 +1,6 @@
-package com.zenpay.paymentgateway.model;
+package com.paymentgateway.model;
 
-import com.zenpay.paymentgateway.enums.TransactionStatus;
+import com.paymentgateway.enums.TransactionStatus;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotEmpty;

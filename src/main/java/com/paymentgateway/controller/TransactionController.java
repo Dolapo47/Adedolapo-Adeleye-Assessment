@@ -1,9 +1,9 @@
-package com.zenpay.paymentgateway.controller;
+package com.paymentgateway.controller;
 
-import com.zenpay.paymentgateway.model.Transaction;
-import com.zenpay.paymentgateway.response.GatewayResponse;
-import com.zenpay.paymentgateway.service.TransactionService;
-import com.zenpay.paymentgateway.util.Helper;
+import com.paymentgateway.response.GatewayResponse;
+import com.paymentgateway.model.Transaction;
+import com.paymentgateway.service.TransactionService;
+import com.paymentgateway.util.Helper;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.zenpay.paymentgateway.configuration;
+package com.paymentgateway.configuration;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
