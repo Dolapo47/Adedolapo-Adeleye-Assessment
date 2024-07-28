@@ -1,7 +1,7 @@
 package com.zenpay.paymentgateway.util;
 
 import com.zenpay.paymentgateway.response.GatewayResponse;
-import enums.TransactionStatus;
+import com.zenpay.paymentgateway.enums.TransactionStatus;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
@@ -25,7 +25,10 @@ public class Helper {
             return true;
         }else if(status.equalsIgnoreCase(TransactionStatus.FAILED.toString())){
             return true;
-        }else{
+        }else if(status.equalsIgnoreCase(TransactionStatus.CANCELLED.toString())){
+            return true;
+        }
+        else{
             return false;
         }
     }
