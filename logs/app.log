@@ -809,3 +809,254 @@ java.lang.IllegalStateException: Could not resolve parameter [0] in public org.s
 2024-07-28 02:36:30 - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-07-28 02:36:30 - Initializing Servlet 'dispatcherServlet'
 2024-07-28 02:36:30 - Completed initialization in 1 ms
+2024-07-28 02:55:59 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-28 02:55:59 - HikariPool-1 - Shutdown initiated...
+2024-07-28 02:55:59 - HikariPool-1 - Shutdown completed.
+2024-07-28 02:56:09 - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-28 02:56:09 - Starting PaymentGatewayApplication using Java 21.0.2 with PID 12919 (/Users/adedolapoadeleye/IdeaProjects/PaymentGateway/target/classes started by adedolapoadeleye in /Users/adedolapoadeleye/IdeaProjects/PaymentGateway)
+2024-07-28 02:56:09 - No active profile set, falling back to 1 default profile: "default"
+2024-07-28 02:56:10 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-28 02:56:10 - Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interface.
+2024-07-28 02:56:11 - Tomcat initialized with port 8080 (http)
+2024-07-28 02:56:11 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-28 02:56:11 - Starting service [Tomcat]
+2024-07-28 02:56:11 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-28 02:56:11 - Initializing Spring embedded WebApplicationContext
+2024-07-28 02:56:11 - Root WebApplicationContext: initialization completed in 2012 ms
+2024-07-28 02:56:11 - HikariPool-1 - Starting...
+2024-07-28 02:56:11 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:payment-gateway user=SA
+2024-07-28 02:56:11 - HikariPool-1 - Start completed.
+2024-07-28 02:56:11 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:payment-gateway'
+2024-07-28 02:56:12 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-28 02:56:12 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-28 02:56:12 - HHH000026: Second-level cache disabled
+2024-07-28 02:56:12 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-28 02:56:14 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-28 02:56:14 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-28 02:56:14 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-28 02:56:14 - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-07-28 02:56:15 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-28 02:56:15 - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-28 02:56:15 - Tomcat started on port 8080 (http) with context path '/'
+2024-07-28 02:56:15 - Started PaymentGatewayApplication in 7.668 seconds (process running for 9.215)
+2024-07-28 03:03:15 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-28 03:03:15 - HikariPool-1 - Shutdown initiated...
+2024-07-28 03:03:15 - HikariPool-1 - Shutdown completed.
+2024-07-28 03:03:19 - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-28 03:03:20 - Starting PaymentGatewayApplication using Java 21.0.2 with PID 13096 (/Users/adedolapoadeleye/IdeaProjects/PaymentGateway/target/classes started by adedolapoadeleye in /Users/adedolapoadeleye/IdeaProjects/PaymentGateway)
+2024-07-28 03:03:20 - No active profile set, falling back to 1 default profile: "default"
+2024-07-28 03:03:20 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-28 03:03:20 - Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interface.
+2024-07-28 03:03:21 - Tomcat initialized with port 8080 (http)
+2024-07-28 03:03:21 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-28 03:03:21 - Starting service [Tomcat]
+2024-07-28 03:03:21 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-28 03:03:21 - Initializing Spring embedded WebApplicationContext
+2024-07-28 03:03:21 - Root WebApplicationContext: initialization completed in 1590 ms
+2024-07-28 03:03:21 - HikariPool-1 - Starting...
+2024-07-28 03:03:21 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:payment-gateway user=SA
+2024-07-28 03:03:21 - HikariPool-1 - Start completed.
+2024-07-28 03:03:21 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:payment-gateway'
+2024-07-28 03:03:22 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-28 03:03:22 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-28 03:03:22 - HHH000026: Second-level cache disabled
+2024-07-28 03:03:22 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-28 03:03:24 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-28 03:03:24 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-28 03:03:25 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-28 03:03:25 - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-07-28 03:03:25 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-28 03:03:26 - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-28 03:03:26 - Tomcat started on port 8080 (http) with context path '/'
+2024-07-28 03:03:26 - Started PaymentGatewayApplication in 7.101 seconds (process running for 8.316)
+2024-07-28 03:04:13 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-28 03:04:13 - HikariPool-1 - Shutdown initiated...
+2024-07-28 03:04:13 - HikariPool-1 - Shutdown completed.
+2024-07-28 03:04:17 - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-28 03:04:17 - Starting PaymentGatewayApplication using Java 21.0.2 with PID 13113 (/Users/adedolapoadeleye/IdeaProjects/PaymentGateway/target/classes started by adedolapoadeleye in /Users/adedolapoadeleye/IdeaProjects/PaymentGateway)
+2024-07-28 03:04:17 - No active profile set, falling back to 1 default profile: "default"
+2024-07-28 03:04:18 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-28 03:04:18 - Finished Spring Data repository scanning in 85 ms. Found 1 JPA repository interface.
+2024-07-28 03:04:19 - Tomcat initialized with port 8080 (http)
+2024-07-28 03:04:19 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-28 03:04:19 - Starting service [Tomcat]
+2024-07-28 03:04:19 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-28 03:04:19 - Initializing Spring embedded WebApplicationContext
+2024-07-28 03:04:19 - Root WebApplicationContext: initialization completed in 1798 ms
+2024-07-28 03:04:19 - HikariPool-1 - Starting...
+2024-07-28 03:04:19 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:payment-gateway user=SA
+2024-07-28 03:04:19 - HikariPool-1 - Start completed.
+2024-07-28 03:04:19 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:payment-gateway'
+2024-07-28 03:04:19 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-28 03:04:19 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-28 03:04:19 - HHH000026: Second-level cache disabled
+2024-07-28 03:04:20 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-28 03:04:21 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-28 03:04:21 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-28 03:04:21 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-28 03:04:21 - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-07-28 03:04:22 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-28 03:04:22 - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-28 03:04:22 - Tomcat started on port 8080 (http) with context path '/'
+2024-07-28 03:04:22 - Started PaymentGatewayApplication in 6.216 seconds (process running for 7.52)
+2024-07-28 03:05:00 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-28 03:05:00 - Initializing Servlet 'dispatcherServlet'
+2024-07-28 03:05:00 - Completed initialization in 2 ms
+2024-07-28 03:05:00 - No mapping for GET /swagger-ui/index.html
+2024-07-28 03:05:00 - No endpoint GET /swagger-ui/index.html.
+2024-07-28 03:05:15 - No mapping for GET /swagger-ui/index.html
+2024-07-28 03:05:15 - No endpoint GET /swagger-ui/index.html.
+2024-07-28 03:06:16 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-28 03:06:16 - HikariPool-1 - Shutdown initiated...
+2024-07-28 03:06:16 - HikariPool-1 - Shutdown completed.
+2024-07-28 03:06:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-28 03:06:21 - Starting PaymentGatewayApplication using Java 21.0.2 with PID 13152 (/Users/adedolapoadeleye/IdeaProjects/PaymentGateway/target/classes started by adedolapoadeleye in /Users/adedolapoadeleye/IdeaProjects/PaymentGateway)
+2024-07-28 03:06:21 - No active profile set, falling back to 1 default profile: "default"
+2024-07-28 03:06:22 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-28 03:06:22 - Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interface.
+2024-07-28 03:06:23 - Tomcat initialized with port 8080 (http)
+2024-07-28 03:06:23 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-28 03:06:23 - Starting service [Tomcat]
+2024-07-28 03:06:23 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-28 03:06:23 - Initializing Spring embedded WebApplicationContext
+2024-07-28 03:06:23 - Root WebApplicationContext: initialization completed in 1578 ms
+2024-07-28 03:06:23 - HikariPool-1 - Starting...
+2024-07-28 03:06:23 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:payment-gateway user=SA
+2024-07-28 03:06:23 - HikariPool-1 - Start completed.
+2024-07-28 03:06:23 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:payment-gateway'
+2024-07-28 03:06:23 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-28 03:06:23 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-28 03:06:23 - HHH000026: Second-level cache disabled
+2024-07-28 03:06:24 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-28 03:06:25 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-28 03:06:25 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-28 03:06:25 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-28 03:06:25 - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-07-28 03:06:25 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-28 03:06:26 - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-28 03:06:26 - Tomcat started on port 8080 (http) with context path '/'
+2024-07-28 03:06:26 - Started PaymentGatewayApplication in 5.813 seconds (process running for 6.722)
+2024-07-28 03:06:29 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-28 03:06:29 - Initializing Servlet 'dispatcherServlet'
+2024-07-28 03:06:29 - Completed initialization in 1 ms
+2024-07-28 03:06:29 - No mapping for GET /swagger-ui/index.html
+2024-07-28 03:06:29 - No endpoint GET /swagger-ui/index.html.
+2024-07-28 03:06:40 - No mapping for GET /swagger-ui/index.html
+2024-07-28 03:06:40 - No endpoint GET /swagger-ui/index.html.
+2024-07-28 03:06:50 - No mapping for GET /swagger-ui/index.html
+2024-07-28 03:06:50 - No endpoint GET /swagger-ui/index.html.
+2024-07-28 03:06:54 - No mapping for GET /swagger-ui/index.html
+2024-07-28 03:06:54 - No endpoint GET /swagger-ui/index.html.
+2024-07-28 03:06:54 - No mapping for GET /favicon.ico
+2024-07-28 03:06:54 - No endpoint GET /favicon.ico.
+2024-07-28 03:08:50 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-28 03:08:50 - HikariPool-1 - Shutdown initiated...
+2024-07-28 03:08:50 - HikariPool-1 - Shutdown completed.
+2024-07-28 03:08:53 - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-28 03:08:53 - Starting PaymentGatewayApplication using Java 21.0.2 with PID 13203 (/Users/adedolapoadeleye/IdeaProjects/PaymentGateway/target/classes started by adedolapoadeleye in /Users/adedolapoadeleye/IdeaProjects/PaymentGateway)
+2024-07-28 03:08:53 - No active profile set, falling back to 1 default profile: "default"
+2024-07-28 03:08:54 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-28 03:08:54 - Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interface.
+2024-07-28 03:08:55 - Tomcat initialized with port 8080 (http)
+2024-07-28 03:08:55 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-28 03:08:55 - Starting service [Tomcat]
+2024-07-28 03:08:55 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-28 03:08:55 - Initializing Spring embedded WebApplicationContext
+2024-07-28 03:08:55 - Root WebApplicationContext: initialization completed in 1465 ms
+2024-07-28 03:08:55 - HikariPool-1 - Starting...
+2024-07-28 03:08:55 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:payment-gateway user=SA
+2024-07-28 03:08:55 - HikariPool-1 - Start completed.
+2024-07-28 03:08:55 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:payment-gateway'
+2024-07-28 03:08:55 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-28 03:08:55 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-28 03:08:55 - HHH000026: Second-level cache disabled
+2024-07-28 03:08:56 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-28 03:08:57 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-28 03:08:57 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-28 03:08:58 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-28 03:08:58 - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-07-28 03:08:58 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-28 03:08:58 - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-28 03:08:58 - Tomcat started on port 8080 (http) with context path '/'
+2024-07-28 03:08:58 - Started PaymentGatewayApplication in 6.093 seconds (process running for 7.158)
+2024-07-28 03:09:02 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-28 03:09:02 - Initializing Servlet 'dispatcherServlet'
+2024-07-28 03:09:02 - Completed initialization in 1 ms
+2024-07-28 03:09:02 - No mapping for GET /swagger-ui/index.html
+2024-07-28 03:09:02 - No endpoint GET /swagger-ui/index.html.
+2024-07-28 03:09:05 - No mapping for GET /swagger-ui/index.html
+2024-07-28 03:09:05 - No endpoint GET /swagger-ui/index.html.
+2024-07-28 03:09:12 - No mapping for GET /swagger-ui
+2024-07-28 03:09:12 - No endpoint GET /swagger-ui.
+2024-07-28 03:09:22 - No mapping for GET /swagger-ui/index
+2024-07-28 03:09:22 - No endpoint GET /swagger-ui/index.
+2024-07-28 03:15:09 - No mapping for GET /swagger-ui/index.html
+2024-07-28 03:15:09 - No endpoint GET /swagger-ui/index.html.
+2024-07-28 03:15:31 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-28 03:15:31 - HikariPool-1 - Shutdown initiated...
+2024-07-28 03:15:31 - HikariPool-1 - Shutdown completed.
+2024-07-28 03:15:38 - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-28 03:15:38 - Starting PaymentGatewayApplication using Java 21.0.2 with PID 13373 (/Users/adedolapoadeleye/IdeaProjects/PaymentGateway/target/classes started by adedolapoadeleye in /Users/adedolapoadeleye/IdeaProjects/PaymentGateway)
+2024-07-28 03:15:38 - No active profile set, falling back to 1 default profile: "default"
+2024-07-28 03:15:39 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-28 03:15:39 - Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+2024-07-28 03:15:39 - Tomcat initialized with port 8080 (http)
+2024-07-28 03:15:39 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-28 03:15:39 - Starting service [Tomcat]
+2024-07-28 03:15:39 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-28 03:15:40 - Initializing Spring embedded WebApplicationContext
+2024-07-28 03:15:40 - Root WebApplicationContext: initialization completed in 1828 ms
+2024-07-28 03:15:40 - HikariPool-1 - Starting...
+2024-07-28 03:15:40 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:payment-gateway user=SA
+2024-07-28 03:15:40 - HikariPool-1 - Start completed.
+2024-07-28 03:15:40 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:payment-gateway'
+2024-07-28 03:15:40 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-28 03:15:40 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-28 03:15:40 - HHH000026: Second-level cache disabled
+2024-07-28 03:15:40 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-28 03:15:42 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-28 03:15:42 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-28 03:15:42 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-28 03:15:42 - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-07-28 03:15:42 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-28 03:15:43 - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-28 03:15:43 - Tomcat started on port 8080 (http) with context path '/'
+2024-07-28 03:15:43 - Started PaymentGatewayApplication in 6.447 seconds (process running for 7.509)
+2024-07-28 03:15:48 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-28 03:15:48 - Initializing Servlet 'dispatcherServlet'
+2024-07-28 03:15:48 - Completed initialization in 1 ms
+2024-07-28 03:15:50 - Init duration for springdoc-openapi is: 262 ms
+2024-07-28 03:16:45 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-28 03:16:45 - HikariPool-1 - Shutdown initiated...
+2024-07-28 03:16:45 - HikariPool-1 - Shutdown completed.
+2024-07-28 03:16:48 - HV000001: Hibernate Validator 8.0.1.Final
+2024-07-28 03:16:48 - Starting PaymentGatewayApplication using Java 21.0.2 with PID 13423 (/Users/adedolapoadeleye/IdeaProjects/PaymentGateway/target/classes started by adedolapoadeleye in /Users/adedolapoadeleye/IdeaProjects/PaymentGateway)
+2024-07-28 03:16:48 - No active profile set, falling back to 1 default profile: "default"
+2024-07-28 03:16:49 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-28 03:16:49 - Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interface.
+2024-07-28 03:16:50 - Tomcat initialized with port 8080 (http)
+2024-07-28 03:16:50 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-28 03:16:50 - Starting service [Tomcat]
+2024-07-28 03:16:50 - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-07-28 03:16:50 - Initializing Spring embedded WebApplicationContext
+2024-07-28 03:16:50 - Root WebApplicationContext: initialization completed in 1741 ms
+2024-07-28 03:16:50 - HikariPool-1 - Starting...
+2024-07-28 03:16:50 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:payment-gateway user=SA
+2024-07-28 03:16:50 - HikariPool-1 - Start completed.
+2024-07-28 03:16:50 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:payment-gateway'
+2024-07-28 03:16:50 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-28 03:16:50 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-28 03:16:50 - HHH000026: Second-level cache disabled
+2024-07-28 03:16:51 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-28 03:16:52 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-28 03:16:52 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-28 03:16:52 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-28 03:16:52 - User.withDefaultPasswordEncoder() is considered unsafe for production and is only intended for sample applications.
+2024-07-28 03:16:53 - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-07-28 03:16:54 - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-28 03:16:54 - Tomcat started on port 8080 (http) with context path '/'
+2024-07-28 03:16:54 - Started PaymentGatewayApplication in 6.883 seconds (process running for 7.923)
+2024-07-28 03:17:07 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-28 03:17:07 - Initializing Servlet 'dispatcherServlet'
+2024-07-28 03:17:07 - Completed initialization in 1 ms
+2024-07-28 03:17:09 - Init duration for springdoc-openapi is: 333 ms
