@@ -32,9 +32,9 @@ public class TransactionController {
         return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
     }
 
-    @GetMapping("/transactions/{transactionReference}")
-    public ResponseEntity<GatewayResponse> getTransaction(@PathVariable String transactionReference) {
-        GatewayResponse response = transactionService.getTransaction(transactionReference);
+    @GetMapping("/transactions/{transactionReference}/status")
+    public ResponseEntity<GatewayResponse> getTransactionStatus(@PathVariable String transactionReference) {
+        GatewayResponse response = transactionService.getTransactionStatus(transactionReference);
         return helper.getGatewayResponseResponseEntity(response);
     }
 

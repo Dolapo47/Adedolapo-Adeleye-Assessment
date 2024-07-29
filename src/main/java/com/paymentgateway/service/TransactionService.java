@@ -55,14 +55,14 @@ public class TransactionService implements IGateway {
     }
 
     @Override
-    public GatewayResponse getTransaction(String transactionReference) {
+    public GatewayResponse getTransactionStatus(String transactionReference) {
         Transaction savedTransaction = transactionRepository.findByTransactionReference(transactionReference);
         try {
             if(savedTransaction != null) {
                 return GatewayResponse.builder()
                         .code("00")
-                        .message("Transaction successfully Retrieved")
-                        .data(savedTransaction)
+                        .message("Transaction status successfully Retrieved")
+                        .data(savedTransaction.getStatus())
                         .build();
             }
             return GatewayResponse.builder()
